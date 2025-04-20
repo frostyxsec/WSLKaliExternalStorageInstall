@@ -46,6 +46,16 @@ baris paling atas taruh kata "cd"
 
 ---
 
+## Buat shortcut
+- Di desktop, klik kanan dan pilih new > Shortcut
+- Masukan kode ini
+```powershell
+C:\Windows\System32\wsl.exe -d KaliE -u <username yg dibuat sebelumnya>
+```
+- Lanjut di halaman selanjutnya masukan nama: wsl.exe
+- Klik kanan di shortcut yang dibuat, ganti icon sesuai selera
+
+---
 ## ✅ Hasil Akhir
 
 - Kali Linux berjalan dari **drive E:\**
