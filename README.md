@@ -18,14 +18,14 @@ Panduan lengkap untuk menginstal Kali Linux di Windows Subsystem for Linux (WSL)
 wsl --export kali-linux E:\WSL\Kali\kali-export.tar
 ```
 
-> Pastikan folder `E:\WSL` sudah dibuat sebelumnya
+> Pastikan folder `E:\WSL\Kali` sudah dibuat sebelumnya
 
 ---
 
 ## 💾 Tahap 3: Import Kali Linux ke Drive E:\
 
 ```powershell
-wsl --import KaliE E:\WSL\Kali E:\WSL\kali-export.tar --version 2
+wsl --import KaliE E:\WSL\Kali E:\WSL\Kali\kali-export.tar --version 2
 ```
 
 - `KaliE` = nama WSL instance baru
@@ -34,7 +34,7 @@ wsl --import KaliE E:\WSL\Kali E:\WSL\kali-export.tar --version 2
 
 ---
 
-## 🔐 Jalankan Kali dari Drive E:\ & Pengaturan Hindari Login Sebagai Root
+## 🔐 Jalankan Kali dari Drive E:\ & Pengaturan Hindari Login Sebagai Root Default
 
 ```powershell
 wsl -d KaliE -u <nama user yang kamu setup>
