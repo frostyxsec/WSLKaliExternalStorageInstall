@@ -1,4 +1,4 @@
-# 💻 Install Kali Linux WSL di External Drive (E:\) tanpa .tar.gz
+# 💻 Install Kali Linux WSL di External Drive (E:\)
 
 Panduan lengkap untuk menginstal Kali Linux di Windows Subsystem for Linux (WSL) **langsung ke drive eksternal (E:\)** tanpa perlu file `.tar.gz` dari situs resmi. Termasuk cara menghindari auto-login sebagai `root`.
 
