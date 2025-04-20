@@ -1,6 +1,7 @@
 # 💻 Install Kali Linux WSL di External Drive (E:\)
 
 Panduan lengkap untuk menginstal Kali Linux di Windows Subsystem for Linux (WSL) **langsung ke drive eksternal (E:\)**
+
 Spesifikasi yang disarankan
 - Ukuran penyimpanan ± 256 GB
 - Bisa berupa HDD, SSD atau Flashdisk asal memiliki kecepatan RW cepat
